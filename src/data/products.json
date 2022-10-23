@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Apple",
+        "place": "Kashmir",
+        "price" : "100"
+    },
+    {
+        "name": "Orange",
+        "place": "Nagpur",
+        "price" : "120"
+    },
+    {
+        "name": "Banana",
+        "place": "Kerala",
+        "price" : "60"
+    },
+    {
+        "name": "Peach",
+        "place": "Himachal",
+        "price" : "80"
+    },
+    {
+        "name": "Mango",
+        "place": "Gujarat",
+        "price" : "200"
+    }
+]
