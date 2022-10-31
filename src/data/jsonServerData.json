@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "place": "Kashmir",
+      "price": "100"
+    },
+    {
+      "id": 2,
+      "name": "Orange",
+      "place": "Nagpur",
+      "price": "120"
+    },
+    {
+      "id": 3,
+      "name": "Banana",  
+      "place": "Kerala",
+      "price": "60"
+    },
+    {
+      "id": 4,
+      "name": "Peach",
+      "place": "Himachal",
+      "price": "80"
+    },
+    {
+      "id": 5,
+      "name": "Mango",
+      "place": "Gujarat",
+      "price": "200"
+    }
+  ]
+}

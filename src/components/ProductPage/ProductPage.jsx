@@ -1,10 +1,16 @@
 import React from "react";
-import { useDispatch } from "react-redux";
-import { addToCheckout } from "../../redux/actions";
-import productData from "../../data/products.json";
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from "react-redux";
+import { addToCheckout, getProducts } from "../../redux/actions";
+// import productData from "../../data/products.json";
 
 export default function ProductPage() {
   const dispatch = useDispatch();
+  const productData = useSelector((state) => state.productPageData);
+
+  useEffect(() => {
+    dispatch(getProducts());
+  },[]);
 
   return (
     <div>
@@ -28,6 +34,7 @@ export default function ProductPage() {
           );
         })}
       </ol>
+      {/* <button onClick={() => dispatch(getProducts())}>Fetch Products</button> */}
     </div>
   );
 }
